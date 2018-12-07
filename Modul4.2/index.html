@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+
+        <form class="needs-validation" novalidate="" action="#" method="POST">
+
+            <select id="groups" name="groups">
+                <optgroup label="fruits">
+                  <option>Banana</option>
+                  <option>Cherry</option>
+                  <option>Lemon</option>
+                </optgroup>
+                <optgroup label="vegetables">
+                  <option valu="veggie1">Carrot</option>
+                  <option>Eggplant</option>
+                  <option>Potato</option>
+                </optgroup>
+              </select>
+
+              <input type="radio" checked id="soup" name="meal">
+              <input type="radio" checked id="noodles" name="meal">
+              <input type="radio" checked id="fish" name="meal">
+
+              <button type="">
+                  This a <br><strong>submit button</strong>
+              </button>
+
+          <div class="row">
+            <div class="col-md-6 mb-1">
+              <label for="firstName">Search</label>
+              <input type="search" class="form-control" id="firstName" placeholder="" value="" required="">
+            </div>
+            <div class="col-md-6 mb-1">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            </div>
+            <div class="col-md-6 mb-1">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+            </div>
+          </div>
+          <div class="mb-1">
+            <label for="client">Client of:</label>
+            <select class="custom-select" name="client" id="client" multiple>
+              <option selected>Telekom</option>
+              <option value="1">Orange</option>
+              <option value="2">Vodafone</option>
+              <option value="3">Digi</option>
+            </select>
+          </div>
+
+          <div class="mb-1">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          </div>
+          <div class="mb-1">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" placeholder="1234 Main St" required=""></textarea>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5 mb-1">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-1">
+              <label for="state">State</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-1">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <hr class="mb-1">
+
+          <h4 class="mb-1">Payment</h4>
+
+          <div class="d-block my-1">
+            <div class="custom-control custom-radio">
+              <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+              <label class="custom-control-label" for="credit">Credit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+              <label class="custom-control-label" for="debit">Debit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+              <label class="custom-control-label" for="paypal">Paypal</label>
+            </div>
+          </div>
+
+          <hr class="mb-1">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+        </form>
+
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
